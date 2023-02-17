@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Rating Component</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./feedback.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="rating-container">
+    <img class="star" src="./images/icon-star.svg" />
+    <div class="text-container">
+      <h2 class="title">How did we do?</h2>
+      <p class="text">Please let us know how we did with your support
+        request. All feedback is appreciated 
+        to help us improve our offering!</p>
+    </div>
+
+    <div class="choice-container">
+      <div class="choice" id="1">1</div>
+      <div class="choice" id="2">2</div>
+      <div class="choice" id="3">3</div>
+      <div class="choice" id="4">4</div>
+      <div class="choice" id="5">5</div>
+    </div>
+        <button class="submit" type="button" id="thank-you" onclick="activeSubmit(this)">SUBMIT</button>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">John Paul Viado</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
